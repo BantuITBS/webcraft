@@ -1,0 +1,20 @@
+{% load static %}  <!-- Add this line at the top -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}WebcraftAI{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    {% include 'includes/header.html' %}
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    
+    {% include 'includes/footer.html' %}
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="{% static 'js/chatbot.js' %}"></script>
+</body>
+</html>
