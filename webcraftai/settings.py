@@ -19,7 +19,7 @@ STATICFILES_DIRS = [
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-sm$$-a&@t0kurp59-@dfa%eu^z(!-kks)@i-10mp83-#tmn-1a'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['render.com', 'webcraftai.onrender.com']
 
 
 # Application definition

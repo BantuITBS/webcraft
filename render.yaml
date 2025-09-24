@@ -1,0 +1,1 @@
+services:>> - type: web>>   name: webcraftai>>   env: python>>   buildCommand: "">>   startCommand: gunicorn webcraftai.wsgi:application>>   autoDeploy: true 
